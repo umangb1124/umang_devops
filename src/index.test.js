@@ -24,3 +24,7 @@ test("Should multiply two numbers", () => {
 test("Should divide two numbers", () => {
   expect(divide(250, 10)).toBeCloseTo(25);
 });
+// Test Case 4 (Modulo)
+test("Should modulo two numbers", () => {
+  expect(modulo(25, 10)).toBeCloseTo(5);
+});
